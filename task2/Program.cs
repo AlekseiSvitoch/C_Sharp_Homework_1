@@ -14,8 +14,13 @@ if (numberA > numberB)
     Console.Write(numberA);
 }
 
-else
+else if (numberA < numberB)
 {
     Console.Write("max = ");
     Console.Write(numberB);
+}
+
+else
+{
+    Console.Write("числа равны");
 }
